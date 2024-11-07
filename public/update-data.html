@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Data</title>
+</head>
+<body>
+    <h1>Update Data</h1>
+    <form action="/update-data" method="POST">
+        <label for="data">Data:</label>
+        <input type="text" id="data" name="data" required><br><br>
+
+        <label for="csrfToken">CSRF Token:</label>
+        <input type="text" id="csrfToken" name="csrfToken" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
